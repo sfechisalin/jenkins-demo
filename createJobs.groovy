@@ -6,7 +6,7 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('theme-park-job-1') {
     definition {
         cpsScm {
             scm {
