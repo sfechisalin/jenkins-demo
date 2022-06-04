@@ -13,6 +13,7 @@ pipelineJob('theme-park-job-1') {
                 git {
                     remote {
                         url 'https://github.com/sfechisalin/spring-boot-api-example.git'
+                        credentials 'github-credentials'
                     }
                     branch 'main'
                 }
